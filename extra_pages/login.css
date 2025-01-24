@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.boxl{
+    position: relative;
+    padding: 25px;
+    display: flex;
+  justify-content: center;
+}
+.phone{
+    width: 100%;
+    max-width: 400px;
+    max-height: 600px;
+}
+h1{
+    position: relative;
+    top: 10px;
+}
+
+.box2{
+  
+    position: relative;
+    top:35px;
+   width: 100%;
+    width: 360px;
+    padding: 26px;
+    border-radius: 12px;
+    border: 1px solid white;
+    height: 400px;
+    text-align: center;
+
+}
+.box2s{
+    top:45px;
+    width: 100%;
+    max-width: 360px;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid white;
+    position: relative;
+    text-align: center;
+   
+
+}
+.boxlast{
+    top:35px;
+    width: 100%;
+  
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+
+
+}
+.boxlastt{
+    width: 100%;
+    max-width: 360px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+
+}
+.play{
+    max-width: 150px;
+}
+
+
+input{
+    width: 100%;
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+  }
+  button{
+     width: 100%;
+     width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color:#515BD4;
+    border-radius: 12px;
+  }
+
+  a:hover{
+    color:white;
+}
+
+    a{
+        text-decoration: none;
+        color:#515BD4;
+    }
+    button:hover{
+        background-color:gray;
+        color:white;
+    }
+    .boxlastt:hover{
+        background-color:gray;
+    }
+    footer{
+        position: relative;
+        bottom: 0;
+        text-align: center;
+    }
